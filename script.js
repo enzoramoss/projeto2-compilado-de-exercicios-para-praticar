@@ -98,7 +98,7 @@ const salarioBruto = ganhoPorHora * horasDeTrabalho;
 alert(`O valor bruto e: ${salarioBruto}`)
 const inss = (8 / 100)*salarioBruto;
 const sindicato = ( 5 / 100)*salarioBruto;
-const sobra  = (-(inss + sindicato)+salarioBruto) ;
+const sobra  = ((inss + sindicato)-salarioBruto) ;
 alert(`O valor descontado pelo INSS é: ${inss}`)
 alert(`O valor descontado pelo Sindicato é: ${sindicato}`)
 alert(`O salário líquido é: ${sobra}`)
